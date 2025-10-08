@@ -207,3 +207,10 @@
 .copyright a {
   color: #a1a1a1;
 }
+
+/* 给单行文字添加省略号单独一个类名 */
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
