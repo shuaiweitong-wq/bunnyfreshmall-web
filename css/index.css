@@ -37,3 +37,78 @@
   font-size: 16px;
   margin-right: 10px;
 }
+
+/* 新鲜好物模块 */
+.box-hd {
+  height: 112px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box-hd h2 {
+  font-size: 30px;
+}
+
+.box-hd h2 small {
+  font-size: 16px;
+  color: #a1a1a1;
+  margin-left: 30px;
+}
+
+.box-hd a {
+  font-size: 16px;
+  color: #a1a1a1;
+}
+
+.box-bd ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-bd ul li {
+  width: 304px;
+  height: 404px;
+  background-color: pink;
+  text-align: center;
+  background-color: #eef9f7;
+}
+
+.box-bd ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.box-bd ul li img {
+  width: 100%;
+  height: 304px;
+}
+
+.box-bd ul li .title {
+  margin: 18px 0 12px;
+  font-size: 20px;
+  padding: 0 25px;
+  /* 超出部分省略号 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.box-bd ul li .price {
+  font-size: 20px;
+  color: #aa2113;
+}
+
+.box-bd ul li .price small {
+  font-size: 18px;
+}
+
+/* 人气推荐模块 */
+.popular .box-bd ul li {
+  background-color: #fff;
+}
+
+.popular {
+  margin-bottom: 60px;
+}
